@@ -1,8 +1,6 @@
 const hamburger = document.getElementById("hamburger");
-const ahead = document.getElementById("ahead");
+const menu = document.getElementById("ahead");
 
 hamburger.addEventListener("click", () => {
-    ahead.classList.toggle("show");
-}
-
-)
+    menu.classList.toggle("show");
+});
