@@ -38,6 +38,10 @@ nav {
     list-style: none;
     gap: 2rem;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> a792fd8203b034c20a4f4d4d7b26ff33cf103891
 
 .ahead a {
     color: white;
@@ -58,9 +62,12 @@ h1 {
 .logo img {
     max-width: 50px;   
 }
+
+/*Avoid fixed margin that breaks responsiveness*/
 h1 {
    
-    margin-left: 450px;
+    text-align: center;
+    margin: 30px 0;
 }
 
 .hamburger {
@@ -124,3 +131,35 @@ h1 {
         display: block;
     }
 }
+
+
+/*service page*/
+.service-hold{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.service-hold .hold {
+    padding: 10px;
+    margin: 10px;
+    width: 260px;
+    box-shadow: 1px 1px 10px 1px rgba(0,0,0,0,.10);
+    transition: all .5s;
+
+}
+
+
+.service-img {
+    width: 250px;
+    display: block;
+    margin: auto;
+}
+
+.hold:hover {
+    transform: scale(0.8);
+    cursor: pointer;
+}
+
+
